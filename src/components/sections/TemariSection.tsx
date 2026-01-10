@@ -1,7 +1,9 @@
 import { useState } from "react";
-import { ChevronDown, ChevronUp, Crown, AlertTriangle, TrendingDown, Shield } from "lucide-react";
+import { ChevronDown, ChevronUp, Crown, AlertTriangle, TrendingDown, Shield, Users } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { HistoricalFigure, historicalFigures } from "@/components/HistoricalFigure";
+import { TopicSchema, topicSchemas } from "@/components/TopicSchema";
 
 const blocs = [
   {
@@ -9,6 +11,8 @@ const blocs = [
     title: "El Sistema Canovista (1874-1898)",
     icon: Crown,
     description: "Fonaments del règim de la Restauració i el sistema de torn pacífic",
+    schema: topicSchemas.sistemaCanovista,
+    figures: [historicalFigures.canovas, historicalFigures.sagasta, historicalFigures.alfonsoXII],
     content: `
 ## Introducció: La Restauració Borbònica
 
@@ -205,6 +209,8 @@ Des de la guerra de 1859-1860, Espanya mantenia interessos al nord d'Àfrica. La
     title: "La Crisi del 98 i el Regeneracionisme",
     icon: AlertTriangle,
     description: "Pèrdua de les últimes colònies i reflexió nacional",
+    schema: topicSchemas.crisi98,
+    figures: [historicalFigures.costa, historicalFigures.alfonsoXIII],
     content: `
 ## La Guerra de Cuba i les Filipines
 
@@ -395,6 +401,8 @@ Unamuno va encunyar conceptes com la **intrahistoria** (la història silenciosa 
     title: "Descomposició del Sistema (1902-1923)",
     icon: TrendingDown,
     description: "Crisi política, social i militar del règim restauracionista",
+    schema: topicSchemas.descomposicio,
+    figures: [historicalFigures.maura, historicalFigures.canalejas, historicalFigures.alfonsoXIII],
     content: `
 ## El Regnat d'Alfons XIII (1902-1931)
 
@@ -589,6 +597,8 @@ El 13 de setembre de 1923, el general Miguel Primo de Rivera, Capità General de
     title: "La Dictadura de Primo de Rivera (1923-1931)",
     icon: Shield,
     description: "El colp d'estat i el règim dictatorial",
+    schema: topicSchemas.dictadura,
+    figures: [historicalFigures.primoDeRivera, historicalFigures.alfonsoXIII],
     content: `
 ## El Colp d'Estat del 13 de Setembre de 1923
 
