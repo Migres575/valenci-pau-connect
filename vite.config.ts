@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/valenci-pau-connect/", // <--- AFEGEIX AQUESTA LÍNIA AQUÍ
   server: {
     host: "::",
     port: 8080,
