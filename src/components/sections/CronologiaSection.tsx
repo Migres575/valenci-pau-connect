@@ -30,7 +30,8 @@ const events: TimelineEvent[] = [
     description: "El nou rei arriba a la capital espanyola rebut per multituds.",
     details: "Alfons XII entra triomfalment a Madrid el 14 de gener, consolidant la restauració de la monarquia borbònica després del turbulent Sexenni Democràtic.",
     category: "politic",
-    person: "Alfonso XII"
+    person: "Alfonso XII",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Alfonso_XII_de_Espa%C3%B1a%2C_by_Gonz%C3%A1lez.jpg/220px-Alfonso_XII_de_Espa%C3%B1a%2C_by_Gonz%C3%A1lez.jpg"
   },
   {
     year: 1876,
@@ -46,14 +47,16 @@ const events: TimelineEvent[] = [
     title: "Pau de Zanjón",
     description: "Fi de la Guerra dels Deu Anys a Cuba amb promeses de reforma mai complides.",
     details: "El pacte posa fi a la primera guerra independentista cubana, prometent reformes polítiques i administratives que el govern espanyol mai implementarà, sembrant les llavors de futures revoltes.",
-    category: "militar"
+    category: "militar",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Arsenio_Mart%C3%ADnez_Campos.jpg/220px-Arsenio_Mart%C3%ADnez_Campos.jpg"
   },
   {
     year: 1879,
     title: "Fundació del PSOE",
     description: "Pablo Iglesias funda el Partit Socialista Obrer Espanyol a Madrid.",
     details: "En una impremta clandestina de Madrid, Pablo Iglesias funda el primer partit marxista espanyol, que adoptarà una estratègia gradualista d'acció sindical i participació electoral.",
-    category: "social"
+    category: "social",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Pablo_Iglesias_Posse.jpg/220px-Pablo_Iglesias_Posse.jpg"
   },
   {
     year: 1881,
@@ -69,49 +72,56 @@ const events: TimelineEvent[] = [
     title: "Mort d'Alfons XII",
     description: "Mor el rei i comença la regència de Maria Cristina de Habsburg.",
     details: "Alfons XII mor de tuberculosi als 27 anys. La seua vídua Maria Cristina de Habsburg assumeix la regència en nom del futur Alfons XIII, que naixerà sis mesos després.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Mar%C3%ADa_Cristina_de_Habsburgo-Lorena%2C_reina_regente_de_Espa%C3%B1a.jpg/220px-Mar%C3%ADa_Cristina_de_Habsburgo-Lorena%2C_reina_regente_de_Espa%C3%B1a.jpg"
   },
   {
     year: 1885,
     title: "Pacte del Pardo",
     description: "Cánovas i Sagasta acorden el funcionament del torn pacífic.",
     details: "Davant la mort del rei, els dos líders polítics formalitzen el sistema de torn per garantir l'estabilitat durant la regència. Aquest pacte consagra l'alternança pactada i el paper regulador de la Corona.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Palacio_Real_de_El_Pardo_%28cropped%29.jpg/300px-Palacio_Real_de_El_Pardo_%28cropped%29.jpg"
   },
   {
     year: 1888,
     title: "Fundació de la UGT",
     description: "Es crea la Unió General de Treballadors, sindicat socialista.",
     details: "A Barcelona, coincidint amb l'Exposició Universal, es funda la UGT com a braç sindical del PSOE. Adoptarà una estratègia reformista i de negociació, distanciant-se de l'acció directa anarquista.",
-    category: "social"
+    category: "social",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Exposici%C3%B3n_Universal_de_Barcelona_1888_-_Arco_de_Triunfo.jpg/300px-Exposici%C3%B3n_Universal_de_Barcelona_1888_-_Arco_de_Triunfo.jpg"
   },
   {
     year: 1890,
     title: "Sufragi Universal Masculí",
     description: "S'aprova el sufragi universal masculí, encara que manipulat pel caciquisme.",
     details: "Sagasta aprova el sufragi universal masculí, però el sistema caciquil neutralitza la seua capacitat democratitzadora. L'encasellat i el pucherazo continuen determinant els resultats electorals.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Congreso_de_los_Diputados_%28Espa%C3%B1a%29_06.jpg/300px-Congreso_de_los_Diputados_%28Espa%C3%B1a%29_06.jpg"
   },
   {
     year: 1892,
     title: "Bases de Manresa",
     description: "El catalanisme polític presenta el seu projecte d'autonomia.",
     details: "L'Assemblea de Manresa aprova les Bases per a la Constitució Regional Catalana, primer projecte articulat d'autogovern català. Representa el pas del catalanisme cultural al polític.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Bases_de_Manresa.jpg/220px-Bases_de_Manresa.jpg"
   },
   {
     year: 1895,
     title: "Grito de Baire - Inici de la insurrecció cubana",
     description: "Comença la Guerra d'Independència de Cuba amb el Grito de Baire.",
     details: "El 24 de febrer, els independentistes cubans liderats per José Martí, Máximo Gómez i Antonio Maceo reprenen la lluita armada. Martí morirà al maig, però la guerra s'estendrà per tota l'illa.",
-    category: "militar"
+    category: "militar",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Jose_Marti_portrait.jpg/220px-Jose_Marti_portrait.jpg"
   },
   {
     year: 1895,
     title: "Fundació del PNB",
     description: "Sabino Arana funda el Partit Nacionalista Basc.",
     details: "Sabino Arana funda el PNB a Bilbao, combinant la defensa de la tradició foral, el catolicisme integrista i un nacionalisme ètnic basat en la puresa de raça i la llengua euskera.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sabino_Arana.jpg/220px-Sabino_Arana.jpg"
   },
   {
     year: 1897,
@@ -119,14 +129,16 @@ const events: TimelineEvent[] = [
     description: "Antonio Cánovas del Castillo és assassinat per l'anarquista Angiolillo.",
     details: "L'8 d'agost, l'anarquista italià Michele Angiolillo assassina Cánovas als banys de Santa Àgueda. L'artífex del sistema de la Restauració mor deixant el Partit Conservador sense lideratge clar.",
     category: "politic",
-    person: "Cánovas del Castillo"
+    person: "Cánovas del Castillo",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/C%C3%A1novas_%28Kaulak%29.jpg/220px-C%C3%A1novas_%28Kaulak%29.jpg"
   },
   {
     year: 1898,
     title: "Explosió del Maine",
     description: "L'enfonsament del cuirassat nord-americà al port de l'Havana precipita la guerra.",
     details: "El 15 de febrer, el USS Maine explota al port de l'Havana. Malgrat que probablement va ser un accident intern, la premsa nord-americana culpa Espanya amb el lema 'Remember the Maine!'",
-    category: "militar"
+    category: "militar",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/USS_Maine_h61015.jpg/300px-USS_Maine_h61015.jpg"
   },
   {
     year: 1898,
@@ -141,14 +153,16 @@ const events: TimelineEvent[] = [
     title: "Fundació de la Lliga Regionalista",
     description: "Es crea el principal partit catalanista, liderat per Prat de la Riba.",
     details: "Enric Prat de la Riba funda la Lliga Regionalista, que esdevindrà la força hegemònica del catalanisme conservador i burgès fins a la Segona República.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Prat_de_la_Riba.jpg/220px-Prat_de_la_Riba.jpg"
   },
   {
     year: 1901,
     title: "Oligarquía y Caciquismo",
     description: "Joaquín Costa publica la seua obra magna del regeneracionisme.",
     details: "Costa denuncia l'oligarquia i el caciquisme com els mals d'Espanya, proposant la famosa fórmula 'Escuela y despensa' i l'arribada d'un 'cirurgià de ferro' que regenere el país.",
-    category: "cultural"
+    category: "cultural",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Joaqu%C3%ADn_Costa%2C_de_Compay.jpg/220px-Joaqu%C3%ADn_Costa%2C_de_Compay.jpg"
   },
   {
     year: 1902,
@@ -164,35 +178,40 @@ const events: TimelineEvent[] = [
     title: "Mort de Sagasta",
     description: "Mor l'artífex liberal del torn pacífic.",
     details: "La mort de Sagasta (gener 1903) obre una crisi de lideratge al Partit Liberal similar a la que patia el conservador des de 1897. El torn començarà a funcionar amb dificultats creixents.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Pr%C3%A1xedes_Mateo_Sagasta%2C_de_Jean_Laurent_%28cropped%29.jpg/220px-Pr%C3%A1xedes_Mateo_Sagasta%2C_de_Jean_Laurent_%28cropped%29.jpg"
   },
   {
     year: 1905,
     title: "Incidents del ¡Cu-Cut!",
     description: "Oficials assalten redaccions de premsa catalanista a Barcelona.",
     details: "El 25 de novembre, oficials de l'exèrcit assalten les redaccions del setmanari ¡Cu-Cut! i del diari La Veu de Catalunya per una caricatura antimilitarista. Precipitarà la Llei de Jurisdiccions.",
-    category: "militar"
+    category: "militar",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Cu-Cut%21_La_victoria.jpg/220px-Cu-Cut%21_La_victoria.jpg"
   },
   {
     year: 1906,
     title: "Llei de Jurisdiccions",
     description: "Les ofenses a l'exèrcit passen a la jurisdicció militar.",
     details: "En lloc de castigar els militars agressors, el govern aprova una llei que sotmet a tribunals militars les ofenses a l'exèrcit. Unirà tot el catalanisme en Solidaritat Catalana.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Congreso_de_los_Diputados_%28Espa%C3%B1a%29_06.jpg/300px-Congreso_de_los_Diputados_%28Espa%C3%B1a%29_06.jpg"
   },
   {
     year: 1906,
     title: "La Nacionalitat Catalana",
     description: "Prat de la Riba publica el text doctrinal del catalanisme polític.",
     details: "L'obra defineix Catalunya com una nació amb cultura, llengua i caràcter propis, establint el principi que cada nació ha de tenir el seu Estat. Serà referent del catalanisme durant tot el segle XX.",
-    category: "cultural"
+    category: "cultural",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Prat_de_la_Riba.jpg/220px-Prat_de_la_Riba.jpg"
   },
   {
     year: 1906,
     title: "Solidaritat Catalana",
     description: "Coalició catalanista que guanya les eleccions a Catalunya.",
     details: "Com a resposta a la Llei de Jurisdiccions, totes les forces catalanes (excepte lerrouxistes i republicans federals) s'uneixen en Solidaritat Catalana, que arrassarà a les eleccions de 1907.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Solidaritat_Catalana.jpg/300px-Solidaritat_Catalana.jpg"
   },
   {
     year: 1907,
@@ -216,7 +235,8 @@ const events: TimelineEvent[] = [
     title: "Fundació de la CNT",
     description: "Es crea la Confederació Nacional del Treball, sindicat anarcosindicalista.",
     details: "A Barcelona, diverses societats obreres funden la CNT, que adoptarà la tàctica de l'acció directa i la vaga general. Es convertirà en el sindicat majoritari a Catalunya, Aragó i Andalusia.",
-    category: "social"
+    category: "social",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Congreso_CNT_Conservatorio_Madrid_1919.jpg/300px-Congreso_CNT_Conservatorio_Madrid_1919.jpg"
   },
   {
     year: 1910,
@@ -232,63 +252,72 @@ const events: TimelineEvent[] = [
     title: "Protectorat del Marroc",
     description: "El Tractat de Fes estableix el protectorat espanyol al nord del Marroc.",
     details: "Espanya aconsegueix el protectorat sobre la zona nord del Marroc (el Rif), territori muntanyós habitat per tribus berbers que mai no acceptaran completament el domini colonial.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Rif_1921.jpg/300px-Rif_1921.jpg"
   },
   {
     year: 1912,
     title: "Assassinat de Canalejas",
     description: "El president del govern José Canalejas és assassinat per un anarquista.",
     details: "El 12 de novembre, l'anarquista Manuel Pardiñas assassina Canalejas davant una llibreria de Madrid. Mor l'última esperança de reforma efectiva dins el sistema de la Restauració.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Jos%C3%A9_Canalejas_1912.jpg/220px-Jos%C3%A9_Canalejas_1912.jpg"
   },
   {
     year: 1914,
     title: "Mancomunitat de Catalunya",
     description: "Primera experiència d'autogovern català des del segle XVIII.",
     details: "S'aprova la constitució de la Mancomunitat de Catalunya, que agrupa les quatre diputacions provincials catalanes. Prat de la Riba serà el primer president. Es dissoldrà el 1925.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Prat_de_la_Riba.jpg/220px-Prat_de_la_Riba.jpg"
   },
   {
     year: 1914,
     title: "Primera Guerra Mundial - Neutralitat espanyola",
     description: "Espanya es declara neutral en la Gran Guerra.",
     details: "El govern declara la neutralitat, però la societat es divideix entre aliadòfils (liberals, esquerres) i germanòfils (conservadors, exèrcit). La neutralitat permetrà un boom econòmic per les exportacions.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/WW1_TitlePicture_For_Wikipedia_Article.jpg/300px-WW1_TitlePicture_For_Wikipedia_Article.jpg"
   },
   {
     year: 1917,
     title: "Crisi de 1917 - Juntes de Defensa",
     description: "Les Juntes Militars de Defensa es rebel·len contra el govern.",
     details: "El juny, les Juntes de Defensa (organitzacions d'oficials de graduació mitjana) presenten un manifest exigint millores. El govern capitula, legitimant la intervenció militar en política.",
-    category: "militar"
+    category: "militar",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Juntas_de_Defensa_Nacional.jpg/300px-Juntas_de_Defensa_Nacional.jpg"
   },
   {
     year: 1917,
     title: "Assemblea de Parlamentaris",
     description: "Diputats catalanistes, republicans i socialistes exigeixen Corts constituents.",
     details: "El juliol, diputats reunits a Barcelona demanden convocatòria de Corts constituents i autonomia regional. Liderats per Cambó, són dispersats per la força sense aconseguir els seus objectius.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Francesc_Camb%C3%B3_i_Batlle.jpg/220px-Francesc_Camb%C3%B3_i_Batlle.jpg"
   },
   {
     year: 1917,
     title: "Vaga General Revolucionària",
     description: "UGT i CNT convoquen vaga general per enderrocar el sistema.",
     details: "L'agost, una vaga general revolucionària intenta enderrocar el règim i proclamar la república. Durament reprimida per l'exèrcit (més de 70 morts), fracassa per manca de coordinació amb les altres crisis.",
-    category: "social"
+    category: "social",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Pablo_Iglesias_Posse.jpg/220px-Pablo_Iglesias_Posse.jpg"
   },
   {
     year: 1919,
     title: "Vaga de La Canadenca",
     description: "Espanya aconsegueix la jornada de vuit hores, primera d'Europa.",
     details: "La vaga a Barcelona Traction (La Canadenca) es converteix en vaga general. Després de 44 dies, el govern concedeix la jornada de vuit hores, la primera llei d'aquest tipus a Europa.",
-    category: "social"
+    category: "social",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Vaga_de_la_Canadenca.jpg/300px-Vaga_de_la_Canadenca.jpg"
   },
   {
     year: 1919,
     title: "Inici del Pistolerisme",
     description: "Comença la guerra social a Barcelona entre patrons i sindicats.",
     details: "La patronal catalana organitza grups armats (Sindicat Lliure) que assassinen líders obrers. La CNT respon amb atemptats. Entre 1919 i 1923 hi haurà més de 200 morts en aquesta guerra social.",
-    category: "social"
+    category: "social",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Salvador_Segu%C3%AD_i_Rubinat.jpg/220px-Salvador_Segu%C3%AD_i_Rubinat.jpg"
   },
   {
     year: 1921,
@@ -303,7 +332,8 @@ const events: TimelineEvent[] = [
     title: "Assassinat d'Eduardo Dato",
     description: "El president del govern és assassinat per anarquistes.",
     details: "El 8 de març, tres anarquistes assassinen el president Dato a Madrid com a revenja pels assassinats de líders obrers a Barcelona. És el tercer president assassinat des de 1897.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Eduardo_Dato_e_Iradier.jpg/220px-Eduardo_Dato_e_Iradier.jpg"
   },
   {
     year: 1923,
@@ -319,56 +349,64 @@ const events: TimelineEvent[] = [
     title: "Desembarcament d'Alhucemas",
     description: "Victòria militar hispanofranesa que posa fi a la Guerra del Rif.",
     details: "El 8 de setembre, una operació conjunta hispanofrancesa desembarca a la badia d'Alhucemas. La victòria portarà a la rendició d'Abd el-Krim el 1926 i posa fi a la guerra del Marroc.",
-    category: "militar"
+    category: "militar",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Desembarco_de_Alhucemas.jpg/300px-Desembarco_de_Alhucemas.jpg"
   },
   {
     year: 1925,
     title: "Directori Civil",
     description: "Primo de Rivera substitueix els militars per ministres civils.",
     details: "El desembre, Primo de Rivera forma un govern civil, intentant institucionalitzar la dictadura. Crea la Unión Patriótica com a partit únic i l'Organització Corporativa Nacional per controlar les relacions laborals.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/PrimoRivera-Franzen.jpg/220px-PrimoRivera-Franzen.jpg"
   },
   {
     year: 1927,
     title: "FAI",
     description: "Es funda la Federació Anarquista Ibèrica.",
     details: "Els sectors més revolucionaris de l'anarquisme funden la FAI a València, que mantindrà la pressió insurreccionalista dins la CNT i s'oposarà a qualsevol col·laboració amb el poder.",
-    category: "social"
+    category: "social",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Congreso_CNT_Conservatorio_Madrid_1919.jpg/300px-Congreso_CNT_Conservatorio_Madrid_1919.jpg"
   },
   {
     year: 1929,
     title: "Exposicions Internacionals",
     description: "Barcelona i Sevilla celebren exposicions que mostren l'Espanya de la Dictadura.",
     details: "L'Exposició Internacional de Barcelona i la Iberoamericana de Sevilla són els grans aparadors del règim. L'endeutament per finançar-les agreuja la crisi econòmica que s'acosta.",
-    category: "cultural"
+    category: "cultural",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Palau_Nacional%2C_Barcelona.jpg/300px-Palau_Nacional%2C_Barcelona.jpg"
   },
   {
     year: 1930,
     title: "Dimissió de Primo de Rivera",
     description: "Primo de Rivera dimiteix. Comença la 'Dictablanda' de Berenguer.",
     details: "El 28 de gener, sense suports, Primo de Rivera presenta la dimissió al rei i marxa a l'exili. El general Berenguer intenta una transició ordenada cap a la legalitat, però el sistema ja és irrecuperable.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/General_D%C3%A1maso_Berenguer.jpg/220px-General_D%C3%A1maso_Berenguer.jpg"
   },
   {
     year: 1930,
     title: "Pacte de San Sebastián",
     description: "Republicans, socialistes i catalanistes acorden acabar amb la monarquia.",
     details: "El 17 d'agost, l'oposició republicana signa un pacte per derrocar la monarquia. S'acorda formar un govern provisional i convocar Corts constituents. Els socialistes s'hi afegiran a l'octubre.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Niceto_Alcal%C3%A1-Zamora_y_Torres%2C_por_Kaulak.jpg/220px-Niceto_Alcal%C3%A1-Zamora_y_Torres%2C_por_Kaulak.jpg"
   },
   {
     year: 1930,
     title: "Sublevació de Jaca",
     description: "Intent de pronunciament republicà, durament reprimit.",
     details: "El 12 de desembre, els capitans Fermín Galán i Ángel García Hernández es pronuncien a Jaca. El fracàs i el seu afusellament els converteixen en màrtirs de la causa republicana.",
-    category: "militar"
+    category: "militar",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Ferm%C3%ADn_Gal%C3%A1n.jpg/220px-Ferm%C3%ADn_Gal%C3%A1n.jpg"
   },
   {
     year: 1931,
     title: "Eleccions Municipals del 12 d'abril",
     description: "La victòria republicana a les grans ciutats precipita la caiguda de la monarquia.",
     details: "Les eleccions municipals es converteixen en plebiscit sobre la monarquia. Els republicans guanyen a les capitals de província. El resultat demostra que la monarquia ha perdut el suport urbà.",
-    category: "politic"
+    category: "politic",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Alfonso_XIII_de_Espa%C3%B1a_by_Kaulak.jpg/220px-Alfonso_XIII_de_Espa%C3%B1a_by_Kaulak.jpg"
   },
   {
     year: 1931,
