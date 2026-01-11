@@ -22,7 +22,7 @@ const events: TimelineEvent[] = [
     details: "El general Arsenio Martínez Campos es pronuncia a Sagunt (29 de desembre) proclamant Alfons XII com a rei d'Espanya. Acaba el Sexenni Democràtic i comença la Restauració, dissenyada per Antonio Cánovas del Castillo.",
     category: "politic",
     person: "Alfonso XII",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/1875-01-08%2C_La_Ilustraci%C3%B3n_Espa%C3%B1ola_y_Americana%2C_Sagunto_%28Valencia%29%2C_Proclamaci%C3%B3n_del_rey_Alfonso_XII_por_la_brigada_Daban%2C_al_mando_del_general_Mart%C3%ADnez_Campos%2C_el_29_de_diciembre_de_1874_%28cropped%29.jpg/1280px-thumbnail.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Alfonso_XII_de_Espa%C3%B1a%2C_by_Gonz%C3%A1lez.jpg/220px-Alfonso_XII_de_Espa%C3%B1a%2C_by_Gonz%C3%A1lez.jpg"
   },
   {
     year: 1875,
