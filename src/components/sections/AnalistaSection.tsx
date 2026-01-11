@@ -29,6 +29,23 @@ interface SourceAnalysis {
 
 const sources: SourceAnalysis[] = [
   {
+    id: "manifest-sandhurst",
+    title: "Manifest de Sandhurst (1 de desembre de 1874)",
+    type: "Font primària - Manifest polític",
+    category: "Sistema Canovista",
+    excerpt: `"Huérfano de padre, exiliado mi familia y yo, pasé dos años de mi primera juventud en destierro (...). Llegado a la mayor edad, en la plenitud de mis derechos y deberes, creo de mi obligación dirigirme a los españoles.
+
+He recibido de España grandes pruebas de afecto (...). Cuantos me han escrito muestran igual convicción de que sólo el restablecimiento de la Monarquía constitucional puede poner término a la opresión, a la incertidumbre y a las crueles perturbaciones que experimenta España (...).
+
+Sea la que quiera mi propia suerte, ni dejaré de ser buen español, ni como todos mis antepasados, buen católico, ni, como hombre del siglo, verdaderamente liberal."`,
+    modelAnswer: {
+      identificacio: "Font primària de caràcter polític. Es tracta del Manifest de Sandhurst, document signat pel príncep Alfons de Borbó (futur Alfons XII) l'1 de desembre de 1874, des de l'Acadèmia Militar de Sandhurst (Anglaterra), on estudiava. El manifest va ser redactat per Antonio Cánovas del Castillo, líder del moviment alfonsí, i signat pel príncep. El destinatari era el poble espanyol i, especialment, les elits polítiques i militars. El propòsit era presentar el príncep com a alternativa a la inestabilitat de la Primera República i preparar la restauració monàrquica.",
+      analisi: "El text presenta la candidatura d'Alfons de Borbó al tron espanyol. S'estructura en tres parts: 1) Presentació personal del príncep, que destaca el seu exili i la seua joventut com a elements de legitimitat (no és responsable dels errors d'Isabel II); 2) Justificació de la restauració: només la monarquia constitucional pot acabar amb l'opressió i la incertesa de la República; 3) Definició ideològica: 'bon espanyol', 'bon catòlic' i 'verdaderament liberal'. Aquesta triple definició era estratègica: conciliava tradició (catolicisme) i modernitat (liberalisme), oferint una monarquia acceptables per a conservadors i liberals. L'estil és solemne, amb un to de dignitat i moderació que contrasta amb la retòrica inflamada de l'època.",
+      context: "El manifest es publica durant la Primera República espanyola (1873-1874), marcada per la inestabilitat política: quatre presidents en un any, la insurrecció cantonal, la Tercera Guerra Carlina i la Guerra de Cuba. Cánovas del Castillo havia preparat meticulosament la restauració, buscant que fos 'legal' i no un simple pronunciament militar. Tanmateix, el general Martínez Campos es va avançar amb el pronunciament de Sagunt (29 de desembre de 1874). El manifest de Sandhurst havia servit per preparar l'opinió pública i legitimarl'operació. Alfons XII entraria a Madrid el gener de 1875, iniciant el període de la Restauració.",
+      valoracio: "El Manifest de Sandhurst és un document fonamental per entendre la Restauració. Revela l'estratègia de Cánovas: presentar la monarquia no com a tornada al passat (absolutisme) sinó com a superació de la inestabilitat republicana. La indefinició deliberada del manifest (liberal però catòlic, constitucional però monàrquic) permetia sumar adhesions de sectors diversos. El text anticipa els trets del sistema canovista: monarquia constitucional, bipartidisme, i integració de les dues famílies liberals. Com a font, té el valor de mostrar la construcció ideològica de la Restauració i la capacitat de Cánovas per crear un consens entre les elits. La brevetat i el to moderat del manifest contrasten amb la grandiloqüència habitual i demostren la habilitat política del seu redactor.",
+    },
+  },
+  {
     id: "constitucio-1876",
     title: "Constitució de 1876 (Articles 18 i 50)",
     type: "Font primària - Text jurídic",
@@ -48,6 +65,40 @@ Art. 54. El Rei convoca les Corts, suspèn i tanca les seues sessions i dissol s
     },
   },
   {
+    id: "pacte-pardo",
+    title: "El Pacte del Pardo (1885) - Crònica periodística",
+    type: "Font primària - Crònica",
+    category: "Sistema Canovista",
+    excerpt: `"En las últimas horas de vida del malogrado Rey Alfonso XII, los señores Cánovas del Castillo y Sagasta mantuvieron una entrevista en el Palacio del Pardo (...).
+
+Se dice que ambos prohombres acordaron, en aquella triste ocasión, dar estabilidad al sistema constitucional, alternándose en el poder de manera ordenada, para evitar que la minoría del futuro monarca diese ocasión a pronunciamientos o intentonas.
+
+El señor Cánovas cedió inmediatamente el poder al señor Sagasta, dando así prueba de patriotismo y altura de miras (...)"`,
+    modelAnswer: {
+      identificacio: "Font primària de caràcter periodístic. Es tracta d'una crònica que descriu el Pacte del Pardo, acord informal entre Antonio Cánovas del Castillo (líder conservador) i Práxedes Mateo Sagasta (líder liberal), celebrat el novembre de 1885 poc abans de la mort d'Alfons XII. Tot i que no existeix cap document escrit del pacte, les fonts de l'època en testimonien l'existència. El destinatari era l'opinió pública. El propòsit de la crònica era informar sobre l'acord i presentar-lo com un acte de patriotisme.",
+      analisi: "El text descriu els elements essencials del Pacte del Pardo: 1) El context: les últimes hores de vida d'Alfons XII, que moriria amb 27 anys deixant la reina regent Maria Cristina d'Habsburg embarassada del futur Alfons XIII; 2) L'acord: l'alternança ordenada en el poder per garantir l'estabilitat durant la minoria del rei; 3) El gest: Cánovas cedeix immediatament el poder a Sagasta, demostrant que l'acord és efectiu. El text presenta el pacte com un acte de 'patriotisme i altura de mires', obviament les crítiques posteriors (que era un repartiment del poder que excloïa altres forces). L'estil és informatiu però laudatori, propi del periodisme de l'època.",
+      context: "El Pacte del Pardo es produeix en un moment crític: la mort imminent d'Alfons XII (25 de novembre de 1885) obria un període d'incertesa. La reina regent Maria Cristina era estrangera i la seua legitimitat podia ser qüestionada. Existia el perill de pronunciaments militars o d'un aixecament carlista. Cánovas i Sagasta van acordar l'alternança pacífica per blindar el sistema: el Partit Liberal governaria primer (amb Sagasta, 1885-1890), donant estabilitat a la regència i aprovant reformes liberalitzadores (sufragi universal masculí, 1890). Després tornaria Cánovas. Aquest acord va consolidar el 'torn pacífic' com a mecanisme central del sistema.",
+      valoracio: "El Pacte del Pardo és un moment clau de la Restauració. Demostra la capacitat dels líders dinàstics per posar l'estabilitat del sistema per davant dels interessos de partit. Però també revela les limitacions del sistema: el poder es decidia en pactes entre elits, no en les urnes. El torn pacífic, que el pacte va consolidar, excloïa les forces polítiques alternatives (republicans, socialistes, nacionalismes perifèrics) i es basava en la manipulació electoral. Com a font, el text té el valor de mostrar com es presentava el pacte a l'opinió pública (com un acte patriòtic) i permet contrastar aquesta visió amb les crítiques posteriors dels regeneracionistes, que denunciarien l'artificialitat del sistema.",
+    },
+  },
+  {
+    id: "tractat-paris",
+    title: "Tractat de París (10 de desembre de 1898)",
+    type: "Font primària - Tractat internacional",
+    category: "Crisi del 98",
+    excerpt: `"Art. 1. Espanya renuncia a tot dret de sobirania i propietat sobre Cuba. Tenint en compte que dita illa, quan siga evacuada per Espanya, va a ser ocupada pels Estats Units (...).
+
+Art. 2. Espanya cedeix als Estats Units l'illa de Puerto Rico i les altres illes que estan ara sota la sobirania espanyola a les Índies Occidentals (...).
+
+Art. 3. Espanya cedeix als Estats Units l'arxipèlag conegut per les Illes Filipines (...). Els Estats Units pagaran a Espanya la suma de vint milions de dòlars dins dels tres mesos següents al bescanvi de ratificacions del present Tractat."`,
+    modelAnswer: {
+      identificacio: "Font primària de caràcter jurídic internacional. Es tracta d'extractes del Tractat de París, signat el 10 de desembre de 1898 entre Espanya i els Estats Units, que posava fi a la Guerra hispano-nord-americana (abril-agost 1898). El tractat va ser negociat a París i ratificat per les Corts espanyoles el març de 1899. El destinatari eren les nacions signants i la comunitat internacional. El propòsit era formalitzar jurídicament els termes de la pau i la cessió de territoris.",
+      analisi: "El text estableix les condicions de la pau: 1) Cuba: Espanya renuncia a la sobirania, però l'illa no passa directament als EUA sinó que serà 'ocupada' (realment seria un protectorat fins al 1902); 2) Puerto Rico i les altres Antilles: cessió directa als EUA; 3) Filipines: cessió als EUA a canvi de 20 milions de dòlars, una compensació simbòlica. El llenguatge és fred i jurídic, típic dels tractats, però amaga una realitat dramàtica: la liquidació de l'imperi colonial espanyol. L'expressió 'Espanya renuncia' minimitza el fet que la renúncia era imposada per la derrota militar. Els Estats Units emergeixen com a potència imperial.",
+      context: "El tractat culmina la Guerra hispano-nord-americana de 1898. La guerra va esclatar després de l'explosió del cuirassat Maine a l'Havana (15 de febrer de 1898) i va durar quatre mesos. La flota espanyola va ser destruïda a Cavite (Filipines) i Santiago de Cuba. El govern Sagasta, conscient de la impossibilitat de continuar la guerra, va negociar la pau. El 'Desastre del 98' va provocar una profunda crisi de consciència a Espanya: la pèrdua de les últimes colònies (Cuba, Puerto Rico, Filipines, Guam) significava la fi de l'imperi i posava en qüestió el sistema de la Restauració. El regeneracionisme i la Generació del 98 van sorgir d'aquesta crisi.",
+      valoracio: "El Tractat de París és un document decisiu per entendre la crisi del 98. Marca la fi de l'imperi espanyol i l'emergència dels Estats Units com a potència mundial. Per a Espanya, el tractat va ser una humiliació: la compensació de 20 milions per Filipines era una ficció per maquillar la derrota. Les conseqüències van ser profundes: crisi econòmica (pèrdua de mercats colonials), crisi moral (el 'problema d'Espanya'), crisi política (descrèdit del sistema de la Restauració). Com a font, el tractat té un valor documental insubstituïble i permet entendre la dimensió internacional de la crisi del 98, sovint oblidada davant les reflexions interiors dels regeneracionistes.",
+    },
+  },
+  {
     id: "costa-oligarquia",
     title: "Joaquín Costa: Oligarquía y Caciquismo (1901)",
     type: "Font primària - Assaig polític",
@@ -63,40 +114,10 @@ Hay que echar doble llave al sepulcro del Cid, para que no vuelva a cabalgar. Ha
     },
   },
   {
-    id: "manifiest-primo",
-    title: "Manifest de Primo de Rivera (13 de setembre de 1923)",
-    type: "Font primària - Text polític",
-    category: "Dictadura",
-    excerpt: `"Al país y al Ejército: Ha llegado para nosotros el momento más temido que esperado (...) de recoger las ansias, de atender el clamoroso requerimiento de cuantos amando la Patria no ven para ella otra salvación que libertarla de los profesionales de la política, de los que por una u otra razón nos ofrecen el cuadro de desdichas e inmoralidades que empezaron el año 98 y amenazan a España con un próximo fin trágico y deshonroso.
-
-La tupida red de la política de concupiscencias ha cogido en sus mallas, secuestrándola, hasta la voluntad real. Con frecuencia parecen pedir que gobiernen los que ellos dicen no dejan gobernar, aludiendo a los que les representen en las Cortes en el manejo del presupuesto..."`,
-    modelAnswer: {
-      identificacio: "Text primari de caràcter politicomilitar. Es tracta del manifest publicat el 13 de setembre de 1923 pel general Miguel Primo de Rivera (1870-1930), Capità General de Catalunya, per justificar el colp d'estat que va iniciar la dictadura. El manifest va ser publicat des de Barcelona i adreçat simultàniament a l'Exèrcit i a la nació espanyola. El destinatari era doble: d'una banda, els companys d'armes, dels quals esperava suport o almenys no-resistència; d'altra, la població civil, a la qual pretenia convèncer de la necessitat de l'acció. El propòsit era legitimar el pronunciament presentant-lo com una operació de salvament nacional front a la degradació política.",
-      analisi: "El text presenta els elements típics d'un pronunciament militar: 1) Legitimació per la situació excepcional: el 'moment més temut' que arriba davant la impossibilitat de continuar tolerant la situació; 2) Apel·lació al patriotisme i a les 'ànsies' populars, presentant l'exèrcit com a intèrpret del sentiment nacional; 3) Crítica ferotge als 'professionals de la política' com a responsables exclusius de la decadència, des del Desastre del 98 fins a l'amenaça d'un 'fi tràgic i deshonrós'; 4) Denúncia de la corrupció política (la 'xarxa de concupiscències') que hauria segrestat fins i tot la voluntat reial. El to regeneracionista del manifest ('alliberar' el país dels polítics) connecta clarament amb les demandes de reforma acumulades des del 98, però les canalitza cap a una solució autoritària. L'estil és grandiloqüent, patriòtic, amb abundància de substantius abstractes (pàtria, salvació, honor) i un maniqueisme evident (polítics corruptes / exèrcit patriota).",
-      context: "El colp es produeix en un moment de crisi aguda del sistema de la Restauració: la fragmentació dels partits dinàstics feia inviable el torn pacífic; l'Expedient Picasso estava a punt de revelar les responsabilitats pel Desastre d'Annual (1921), que podien implicar el rei; el terrorisme anarquista i el pistolerisme assotaven Barcelona; les tensions entre l'exèrcit i el poder civil s'havien intensificat des de 1917; la guerra del Marroc era impopular i costosa. La passivitat d'Alfons XIII davant el colp —no va ordenar a l'Exèrcit defensar la Constitució— va ser interpretada com un suport implícit al pronunciament. El colp comptava amb suports diversos: sectors empresarials catalans (que volien ordre davant la conflictivitat obrera); gran part de l'Exèrcit; sectors catòlics i conservadors; i fins i tot alguns socialistes (la UGT no es va oposar activament).",
-      valoracio: "El manifest és clau per entendre la fi del sistema de la Restauració i l'inici d'un nou cicle polític. Primo de Rivera s'apropiava del llenguatge regeneracionista per justificar un règim autoritari. L'ambigüitat del regeneracionisme (el 'cirurgià de ferro' de Costa) es resolia ara clarament en sentit antidemocràtic. El document mostra com la crítica al parlamentarisme corrupte podia derivar en solucions anticonstitucionals. La referència a la 'voluntat real segrestada' és significativa: el rei seria després acusat de complicitat amb el colp, cosa que contribuiria a la seua caiguda el 1931. El manifest presenta una visió simplista de la realitat (tots els mals són culpa dels polítics) i proposa una solució simple (l'exèrcit com a salvador), obviant les causes estructurals dels problemes d'Espanya. Com a font, és representatiu de la mentalitat militar de l'època i del discurs legitimador dels cops d'estat, que es repetiria el 1936.",
-    },
-  },
-  {
-    id: "pi-margall-federalisme",
-    title: "Francesc Pi i Margall: Las Nacionalidades (1877)",
-    type: "Font primària - Assaig polític",
-    category: "Sistema Canovista",
-    excerpt: `"España es hoy una de las naciones más atrasadas de Europa. Trátase de explicar este fenómeno, y se lo atribuye generalmente a la influencia del clero, al fanatismo religioso, a la mala organización de nuestra enseñanza, al carácter de nuestra raza (...).
-
-El verdadero y principal motivo del atraso de España es la centralización (...). La centralización que convierte a la capital en el corazón de la vida política, intelectual y moral de la nación, y condena a las provincias al marasmo y a la inercia (...). Vean si no cuán pobre es nuestro movimiento intelectual comparado con el de Francia y Alemania..."`,
-    modelAnswer: {
-      identificacio: "Font primària de caràcter politicoideològic. Es tracta d'un fragment de l'obra 'Las Nacionalidades' (1877) de Francesc Pi i Margall (1824-1901), polític i intel·lectual català, líder del Partit Republicà Federal i president de la Primera República (1873). L'obra és un assaig sobre el federalisme i la qüestió de les nacionalitats a Espanya i Europa. Pi i Margall escrivia des de l'oposició, un cop acabada la Primera República i instaurada la Restauració borbònica. El destinatari era el públic il·lustrat, especialment els republicans i progressistes. El propòsit era defensar el federalisme com a solució als problemes d'Espanya.",
-      analisi: "El text diagnostica el 'retard' d'Espanya i n'analitza les causes. Pi i Margall rebutja les explicacions habituals (influència clerical, fanatisme religiós, defectes de raça) i proposa una causa estructural: la centralització. L'argument és que la concentració del poder i la vida intel·lectual a Madrid condemna les 'províncies' (les regions) al marasme i la inèrcia, empobrint el conjunt del país. La comparació amb França i Alemanya serveix per demostrar que el problema és polític, no racial o cultural. La proposta implícita és el federalisme: un Estat descentralitzat que permeta el desenvolupament autònom de cada regió. L'estil és racional, argumentatiu, propi d'un intel·lectual il·lustrat. Pi i Margall evita el to emocional i nacionalista, preferint l'anàlisi política.",
-      context: "El text s'escriu el 1877, en els primers anys de la Restauració borbònica. Pi i Margall havia estat president de la Primera República (1873), intentant implantar un sistema federal que va fracassar enmig del cantonalisme i les guerres carlistes. La Restauració representava la reacció centralista i monàrquica contra l'experiment republicà. L'obra s'ha de situar en el context de l'emergència dels nacionalismes perifèrics: el catalanisme (Renaixença, Valentí Almirall), el nacionalisme basc (que naixeria el 1895 amb Sabino Arana) i el galleguisme. Pi i Margall proposava una alternativa des de l'esquerra: no el nacionalisme ètnic sinó el federalisme polític, que permetria la convivència de les diverses identitats dins un Estat descentralitzat.",
-      valoracio: "El text és significatiu per diverses raons: anticipa el debat sobre la 'qüestió territorial' que marcaria tota la història contemporània espanyola; ofereix una alternativa al nacionalisme conservador (el dels regionalismes catòlic-tradicionalistes) des d'una perspectiva progressista i laica; i diagnostica problemes (centralisme, desigualtat territorial) que encara són vigents. Les limitacions del text són les pròpies del pensament de Pi i Margall: un racionalisme abstracte que infravalora les passions nacionals i una confiança excessiva en les solucions institucionals. Com a font, és representativa del republicanisme federal del segle XIX i de les arrels intel·lectuals del catalanisme polític, que adoptaria parcialment el llegat de Pi i Margall.",
-    },
-  },
-  {
     id: "maura-revolucion",
     title: "Antonio Maura: Discurs sobre la 'Revolució des de dalt' (1902)",
     type: "Font primària - Discurs parlamentari",
-    category: "Sistema Canovista",
+    category: "Descomposició",
     excerpt: `"Hay que hacer la revolución desde el gobierno, porque si no se hace desde el gobierno, se hará desde la calle (...). Nosotros tenemos que hacer la revolución: nosotros los conservadores de verdad (...).
 
 Yo creo que esta es la misión histórica del partido conservador; que esta es la suprema justificación de nuestra existencia como partido: devolver a la Patria el gobierno por las urnas, la expresión verdadera de la voluntad nacional (...). Porque mientras esto no se haga, los partidos de turno, el uno y el otro, serán partidos de oligarquías que viven divorciadas de la masa popular..."`,
@@ -108,25 +129,10 @@ Yo creo que esta es la misión histórica del partido conservador; que esta es l
     },
   },
   {
-    id: "lerroux-miting",
-    title: "Alejandro Lerroux: Discurs al míting de Santander (1906)",
-    type: "Font primària - Discurs polític",
-    category: "Sistema Canovista",
-    excerpt: `"Jóvenes bárbaros de hoy: entrad a saco en la civilización decadente y miserable de este país sin ventura (...). Destruid sus templos; acabad con sus dioses; alzad el velo de las novicias y elevadlas a la categoría de madres para virilizar la especie (...).
-
-Combatid, matad, morid (...). El combate por España, la guerra por la libertad, la batalla por la civilización y el progreso..."`,
-    modelAnswer: {
-      identificacio: "Font primària de caràcter polític. Es tracta d'un fragment del discurs pronunciat per Alejandro Lerroux (1864-1949), polític republicà, líder del Partit Republicà Radical, en un míting a Santander el 1906. Lerroux era un demagog hàbil que havia aconseguit una gran implantació a Barcelona entre les classes populars amb un discurs incendiari anticlerical i populista. El destinatari era les masses populars, especialment els joves obrers. El propòsit era mobilitzar-los contra el sistema establert i, especialment, contra l'Església catòlica.",
-      analisi: "El text és un exemple extrem de retòrica anticlerical. Lerroux crida els 'joves bàrbars' a destruir la 'civilització decadent' representada per l'Espanya de la Restauració. La violència verbal és explícita: destruir temples, acabar amb els déus (l'Església), 'alçar el vel de les novícies' (violació de les monges per 'virilitzar l'espècie'). El llenguatge combina un primitivisme quasi nietzschià amb un anticlericalisme salvatge. L'estil és incendiari, amb abundància d'imperatius i d'imatges violentes. El missatge és més emocional que polític: no hi ha un programa concret, sinó una crida a la destrucció de l'ordre establert.",
-      context: "El discurs s'emmarca en el context del republicanisme radical de principis del segle XX. Lerroux havia construït una base electoral a Barcelona amb un discurs populista que combinava anticlericalisme, espanyolisme (contra el catalanisme) i demagògia social. El seu periòdic 'La Rebeldía' difonia missatges semblants. Tres anys després d'aquest discurs, la Setmana Tràgica de Barcelona (1909) materialitzaria parcialment aquesta retòrica amb la crema d'esglésies i convents. Lerroux, paradoxalment, evolucionaria cap a posicions cada vegada més moderades i acabaria sent ministre de la República i aliat dels sectors conservadors.",
-      valoracio: "El text és representatiu de l'anticlericalisme radical que caracteritzava sectors del republicanisme espanyol. La violència verbal de Lerroux és extrema i va contribuir a crear un clima d'enfrontament que esclataría en episodis com la Setmana Tràgica. Com a font, mostra els límits de la mobilització populista: Lerroux no oferia un programa polític coherent, sinó una vàlvula d'escapament per a la frustració popular. L'evolució posterior de Lerroux (cap a la dreta) demostra el caràcter oportunista del seu radicalisme juvenil. El text també anticipa el paper que tindria l'anticlericalisme en la política espanyola del segle XX, especialment durant la Segona República i la Guerra Civil.",
-    },
-  },
-  {
     id: "prat-riba-nacionalitat",
     title: "Enric Prat de la Riba: La Nacionalitat Catalana (1906)",
     type: "Font primària - Assaig polític",
-    category: "Sistema Canovista",
+    category: "Nacionalismes",
     excerpt: `"Catalunya és una nació (...). No hem creat nosaltres la nacionalitat catalana: l'hem trobada; no l'hem inventada, l'hem descoberta (...).
 
 La nacionalitat és una unitat de cultura (...), una ànima col·lectiva, amb una manera pròpia de sentir, de pensar, de voler (...). El signe exterior d'aquesta personalitat nacional és la llengua (...).
@@ -140,33 +146,90 @@ L'Estat no és sinó l'organització política de la Nació. Cada Nació ha d'é
     },
   },
   {
-    id: "dato-llei-candau",
-    title: "Eduardo Dato: Defensa de la Llei de Jurisdiccions (1906)",
-    type: "Font primària - Discurs parlamentari",
-    category: "Sistema Canovista",
-    excerpt: `"La disciplina del Ejército, señores diputados, es la base de la fuerza pública, es el nervio de la patria (...). Ofender al Ejército es ofender a España misma (...).
+    id: "setmana-tragica-testimoni",
+    title: "Testimoni de la Setmana Tràgica (1909)",
+    type: "Font primària - Testimoni",
+    category: "Descomposició",
+    excerpt: `"El lunes 26 de julio [1909] empezó todo. Yo estaba en la fábrica cuando vinieron a decir que no habría trabajo, que había huelga general (...). Por la tarde empezaron a levantar barricadas y a quemar conventos.
 
-Esta ley no ataca la libertad de prensa ni la libertad de expresión; lo que hace es poner límites a la injuria, a la calumnia, a la ofensa gratuita a las instituciones armadas (...). ¿Es que se puede consentir que en Cataluña ondee una bandera que no es la española, que se canten himnos que no son los nuestros, que se vitoree a una patria que no es España?..."`,
+La gente gritaba: '¡Abajo la guerra!' y '¡Que vayan los ricos!' (...). No era contra la religión; era contra los curas, que siempre están con los ricos (...). Quemaron más de cuarenta iglesias y conventos. Nadie lo organizó; estalló solo, como una bomba.
+
+El viernes llegó el ejército y empezó la represión. Luego vino lo de Ferrer..."`,
     modelAnswer: {
-      identificacio: "Font primària de caràcter polític. Es tracta d'un fragment del discurs d'Eduardo Dato (1856-1921), polític conservador, en defensa de la Llei de Jurisdiccions al Congrés dels Diputats (1906). La Llei de Jurisdiccions sotmetia a la jurisdicció militar els delictes contra l'Exèrcit i els símbols nacionals. Dato seria diverses vegades president del govern i va morir assassinat per anarquistes el 1921. El destinatari eren els parlamentaris i, a través d'ells, l'opinió pública. El propòsit era defensar la llei davant les crítiques dels republicans i catalanistes.",
-      analisi: "El text defensa la Llei de Jurisdiccions amb diversos arguments: l'Exèrcit és el 'nervi de la pàtria' i no pot ser ofès; la llei no ataca les llibertats sinó que posa límits a la injúria; a Catalunya s'han produït actes contraris a la unitat d'Espanya (banderes no espanyoles, himnes no espanyols). L'argument central és la identificació entre Exèrcit, Pàtria i Estat: ofendre l'Exèrcit és ofendre Espanya. El catalanisme apareix com a amenaça a la unitat nacional. L'estil és oratòric, patriòtic, amb interrogacions retòriques i apel·lacions al sentiment nacional. El to és defensiu però també agressiu contra el catalanisme.",
-      context: "La Llei de Jurisdiccions (1906) va ser una resposta als incidents del ¡Cu-Cut! (novembre 1905), quan oficials de l'exèrcit van assaltar les redaccions de periòdics catalanistes a Barcelona. En comptes de castigar els militars, el govern va aprovar una llei que sotmetia a la jurisdicció militar les ofenses a l'Exèrcit i els símbols nacionals. La llei va provocar la unitat de tot el catalanisme (Solidaritat Catalana, 1906) i va intensificar l'anticatalanisme de sectors militars i conservadors. El text reflecteix la tensió entre catalanisme i espanyolisme que marcaria la política espanyola durant tot el segle XX.",
-      valoracio: "El text és significatiu perquè mostra l'aliança entre l'Exèrcit i el conservadorisme espanyol contra el catalanisme. La identificació entre Exèrcit i Pàtria, i la criminalització de les expressions catalanistes, anunciaven conflictes posteriors. La Llei de Jurisdiccions va romandre vigent fins a la Segona República i va ser un instrument de repressió de les llibertats. Com a font, el text il·lustra la incapacitat del sistema de la Restauració per integrar el catalanisme i la tendència a respondre amb mesures repressives a les demandes d'autogovern. El discurs de Dato anticipa la retòrica de 'unitat d'Espanya' que seria central en el colp de 1936.",
+      identificacio: "Font primària de caràcter testimonial. Es tracta del relat oral d'un testimoni anònim dels fets de la Setmana Tràgica de Barcelona (26-31 de juliol de 1909), recollit posteriorment. El testimoni era probablement un obrer de les fàbriques del Poble Nou o Sant Martí. El destinatari seria l'entrevistador o historiador que va recollir el testimoni. El propòsit era transmetre l'experiència viscuda d'aquells dies.",
+      analisi: "El testimoni ofereix una visió des de baix dels fets: 1) L'inici espontani: la vaga general del dilluns 26, que va sorprendre fins i tot els participants; 2) Les consignes: 'Abajo la guerra' (contra la mobilització per a la guerra del Marroc) i 'Que vayan los ricos' (protesta de classe); 3) La violència anticlerical: crema d'esglésies i convents, justificada pel testimoni com a protesta social ('sempre estan amb els rics'), no religiosa; 4) L'espontaneïtat: 'Ningú ho va organitzar; va esclatar sol'; 5) La repressió: l'arribada de l'exèrcit i la referència a 'lo de Ferrer' (l'execució de Francesc Ferrer i Guàrdia). L'estil és oral, directe, amb expressions populars.",
+      context: "La Setmana Tràgica (juliol 1909) va esclatar com a protesta contra la mobilització de reservistes per a la guerra del Marroc. El 9 de juliol s'havia produït el Desastre del Barranco del Lobo. El govern Maura va mobilitzar reservistes, molts d'ells pares de família de classes populars, mentre que els rics podien pagar per lliurar-se. La protesta va derivar en vaga general, barricades i una violenta explosió anticlerical (més de 80 edificis religiosos cremats). La repressió va ser dura: 5 condemnes a mort, entre elles la de Francesc Ferrer i Guàrdia, anarquista i pedagog, la culpabilitat del qual mai no va quedar demostrada. La seua execució va provocar protestes internacionals i la caiguda de Maura ('Maura, no!').",
+      valoracio: "El testimoni és valuós perquè ofereix la perspectiva dels participants, sovint absent en les fonts oficials. Destaca l'espontaneïtat del moviment (sense direcció clara) i la motivació antimilitarista i de classe, no específicament revolucionària. L'anticlericalisme apareix com una expressió de l'antagonisme social: l'Església era percebuda com aliada de les classes dominants. Com a font, té les limitacions dels testimonis orals: subjectivitat, memòria selectiva, possible reelaboració posterior. Però permet captar l'atmosfera dels fets millor que els informes oficials. La Setmana Tràgica va marcar un punt d'inflexió: el fracàs del reformisme de Maura i l'augment de la conflictivitat social.",
     },
   },
   {
-    id: "largo-caballero-dictadura",
-    title: "Francisco Largo Caballero: Defensa de la col·laboració amb Primo de Rivera (1924)",
-    type: "Font primària - Article polític",
-    category: "Dictadura",
-    excerpt: `"Se ha dicho que nosotros colaboramos con la Dictadura. No es exacto (...). Nosotros no hemos apoyado al régimen dictatorial; lo que hemos hecho es aprovechar las circunstancias para defender los intereses de la clase trabajadora (...).
+    id: "arana-bizkaia",
+    title: "Sabino Arana: 'Bizkaia por su independencia' (1892)",
+    type: "Font primària - Assaig polític",
+    category: "Nacionalismes",
+    excerpt: `"Bizkaya, antes de la inicua invasión del 25 de octubre de 1839, era un Estado libre, soberano e independiente (...). Hoy Bizkaya es una provincia más del reino de España, sujeta a las leyes que hacen los españoles para todos los españoles (...).
 
-Si la UGT hubiese adoptado una posición de resistencia, habría sido aplastada como lo ha sido la CNT (...). Nuestros afiliados trabajan, cobran sus jornales, tienen sus casas del pueblo abiertas, sus cooperativas funcionando (...). ¿Se nos puede reprochar que hayamos elegido la supervivencia de la organización frente al heroísmo estéril?..."`,
+¿Qué nos ha traído España? Impiedad y heterodoxia, inmoralidad y corrupción de costumbres (...). Y ¿qué significa la unión con España? Significa la absorción de la raza, la desaparición del idioma, la muerte de Bizkaya (...).
+
+Nosotros, los verdaderos bizkaínos, amamos con amor inmenso a nuestra Patria; la amamos con exclusión de cualquier otra; odiamos a España con toda nuestra alma..."`,
     modelAnswer: {
-      identificacio: "Font primària de caràcter polític i sindical. Es tracta d'un article de Francisco Largo Caballero (1869-1946), líder de la UGT i del PSOE, publicat el 1924 per justificar la postura de la UGT davant la dictadura de Primo de Rivera. Largo Caballero era conseller d'Estat del règim dictatorial (1924-1929), fet que va generar fortes crítiques dins i fora del socialisme espanyol. El destinatari eren els militants socialistes i l'opinió d'esquerres. El propòsit era defensar-se de les acusacions de col·laboracionisme.",
-      analisi: "El text justifica la postura de la UGT amb diversos arguments: 1) No és col·laboració amb el règim sinó aprofitament de les circumstàncies per defensar els interessos obrers; 2) La resistència hauria significat la destrucció de l'organització, com va passar amb la CNT; 3) Gràcies a aquesta postura, els afiliats mantenen la feina, les cases del poble i les cooperatives; 4) La supervivència de l'organització és preferible a l''heroisme estèril'. L'argument és pragmàtic: davant la impossibilitat de canviar el règim, cal adaptar-s'hi per preservar les conquestes obreres. L'estil és defensiu, amb interrogacions retòriques i comparacions amb la CNT.",
-      context: "El text s'escriu en el context de la dictadura de Primo de Rivera (1923-1930). Mentre la CNT era perseguida i il·legalitzada, la UGT va adoptar una postura de col·laboració que incloïa la participació en els comitès paritaris de l'Organització Corporativa Nacional. Largo Caballero va ser conseller d'Estat entre 1924 i 1929. Aquesta postura va ser molt criticada per la CNT, pels comunistes i per sectors del propi PSOE. Largo Caballero argumentava que la col·laboració havia permès mantenir l'organització i aconseguir millores per als treballadors.",
-      valoracio: "El text és representatiu del dilema entre puresa i eficàcia que sovint afronten els moviments socials sota règims autoritaris. La postura de Largo Caballero va ser controvertida: per als crítics, era una traïció als principis; per als defensors, era pragmatisme que va permetre la supervivència del moviment. La comparació amb la CNT és parcial: la CNT va pagar un preu alt per la seua resistència, però va mantenir intacta la seua coherència ideològica. Largo Caballero evolucionaria després cap a posicions revolucionàries durant la Segona República, com si volgués compensar la moderació anterior. Com a font, el text il·lustra les tensions internes del socialisme espanyol i els dilemes de l'acció sindical sota dictadures.",
+      identificacio: "Font primària de caràcter politicoideològic. Es tracta d'un fragment de l'obra 'Bizkaia por su independencia' (1892) de Sabino Arana Goiri (1865-1903), fundador del Partit Nacionalista Basc (PNB). L'obra és considerada el text fundacional del nacionalisme basc. Arana escrivia des d'una perspectiva de recuperació d'un passat mític i anava adreçat als bascos, especialment als sectors catòlics i tradicionalistes. El propòsit era despertar la consciència nacional basca i justificar la lluita per la independència.",
+      analisi: "El text presenta els elements centrals del primer nacionalisme basc: 1) L'argument històric: Biscaia era un 'Estat lliure i sobirà' abans de la invasió espanyola de 1839 (abolició dels furs pels liberals); 2) La condemna d'Espanya: associada a la irreligiositat, la immoralitat i la corrupció, en contrast amb la suposada puresa basca; 3) L'amenaça d'absorció: la unió amb Espanya significa la mort de la raça, la llengua i la identitat; 4) El sentiment: amor exclusiu a la pàtria basca, odi a Espanya. El nacionalisme d'Arana és ètnic (basat en la raça, definida pels cognoms bascos), catòlic (contra el liberalisme irreligiós espanyol) i antiespanyol (radical i excloent). L'estil és passional, maniqueu, amb abundant ús d'adjectius valoratius.",
+      context: "Arana escriu en un moment de transformació accelerada del País Basc: la industrialització (mines, siderúrgia) havia atret immigració espanyola, especialment a Bilbao. Arana, fill de família carlista, veia aquesta immigració com una amenaça per a la identitat basca. El nacionalisme basc naix com a reacció contra la modernització i la immigració, amb una idealització de la societat rural tradicional. El 1895, Arana va fundar el PNB, que integraria el nacionalisme amb el catolicisme i el tradicionalisme. En els últims anys de vida, Arana va evolucionar cap a posicions més moderades (autonomisme), però el PNB mantindria el nucli doctrinal de l'independentisme.",
+      valoracio: "El text és fonamental per entendre el nacionalisme basc en el seu origen. La radicalitat del plantejament (odi a Espanya, exclusivisme ètnic) contrasta amb els nacionalismes coetanis com el catalanisme de Prat de la Riba, més cultural i integrador. L'èmfasi en la raça i els cognoms reflecteix les idees del segle XIX sobre les 'races' nacionals, avui rebutjades. Com a font, el text mostra la construcció ideològica d'una identitat nacional a partir de materials diversos: memòria foral, catolicisme tradicional, antimodernisme. El nacionalisme d'Arana seria un element constant de la política espanyola durant el segle XX, amb manifestacions diverses (PNB, ETA, moviments actuals).",
+    },
+  },
+  {
+    id: "manifest-junta-defensa",
+    title: "Manifest de les Juntes de Defensa (1 de juny de 1917)",
+    type: "Font primària - Manifest militar",
+    category: "Descomposició",
+    excerpt: `"Las Juntas de Defensa del Arma de Infantería (...) hacen público que se hallan constituidas en todas las guarniciones de España (...).
+
+Nuestros fines son exclusivamente profesionales: mejora de los sueldos, reforma de la escala cerrada, supresión de los ascensos por méritos de guerra (...). No pretendemos inmiscuirnos en política; pero si el Gobierno no atiende nuestras peticiones, nos veremos obligados a tomar medidas más enérgicas (...).
+
+El Ejército no puede continuar siendo el paria del presupuesto nacional mientras los políticos dilapidan los recursos del Estado..."`,
+    modelAnswer: {
+      identificacio: "Font primària de caràcter militar-corporatiu. Es tracta d'un fragment del manifest de les Juntes de Defensa, organitzacions d'oficials de l'exèrcit espanyol, publicat l'1 de juny de 1917. Les Juntes van sorgir a partir de 1916 entre els oficials d'Infanteria, insatisfets amb les seues condicions professionals. El manifest anava adreçat al govern i a l'opinió pública. El propòsit era fer públiques les reivindicacions i pressionar per obtenir-les.",
+      analisi: "El text presenta les Juntes i les seues demandes: 1) Constitució: les Juntes estan organitzades a totes les guarnicions, demostrant la seua força; 2) Reivindicacions 'professionals': millora de sous, reforma de l'escala tancada (que bloquejava els ascensos), supressió dels ascensos per mèrits de guerra (que afavorien els militars africanistes); 3) Negació de finalitat política, però amenaça de 'mesures més enèrgiques'; 4) Crítica als polítics: mentre els militars són 'pàries del pressupost', els polítics 'malversen' els recursos. El to és amenaçador, corporatiu, amb un discurs antiparlamentari implícit.",
+      context: "El manifest s'emmarca en la Crisi de 1917, any en què van coincidir tres crisis: la militar (Juntes de Defensa), la política (Assemblea de Parlamentaris a Barcelona) i la social (vaga general revolucionària d'agost). Les Juntes van sorgir pel malestar dels oficials peninsulars davant els ascensos dels africanistes, però van adoptar un discurs regeneracionista i antiparlamentari. El govern Dato va acabar cedint davant les Juntes (Llei de l'Exèrcit de 1918), que es van convertir en un poder fàctic. L'exèrcit es polititzava i s'erigia en 'salvador de la pàtria' davant els polítics corruptes, preparant el camí per al colp de 1923.",
+      valoracio: "El manifest és clau per entendre la descomposició del sistema de la Restauració. Les Juntes exemplifiquen el creixent protagonisme polític de l'exèrcit i la debilitat del poder civil. La seua victòria sobre el govern va demostrar que el sistema no podia controlar els militars. La retòrica antiparlamentària i regeneracionista seria assumida per Primo de Rivera el 1923. Com a font, el text revela la mentalitat corporativa de l'exèrcit i la seua convicció de superioritat moral sobre els polítics. Les Juntes no van fer 'la revolució' però van debilitar fatalment el sistema constitucional.",
+    },
+  },
+  {
+    id: "assemblea-parlamentaris",
+    title: "Conclusions de l'Assemblea de Parlamentaris (19 de juliol de 1917)",
+    type: "Font primària - Text polític",
+    category: "Descomposició",
+    excerpt: `"1.º Que se abran inmediatamente las Cortes, con plena libertad para abordar los problemas constitucionales (...).
+
+2.º Que se proceda a convocar Cortes Constituyentes que reorganicen el Estado español de arriba abajo (...).
+
+3.º Que se establezca la autonomía de los municipios y de las regiones (...).
+
+4.º Que se ponga fin al régimen de turno, obra de la oligarquía y el caciquismo, y se devuelva al pueblo español la soberanía que le pertenece (...).
+
+Esta Asamblea no pretende el desorden, sino la regeneración de España dentro de la ley..."`,
+    modelAnswer: {
+      identificacio: "Font primària de caràcter polític. Es tracta de les conclusions de l'Assemblea de Parlamentaris, reunida a Barcelona el 19 de juliol de 1917. L'Assemblea va ser convocada per la Lliga Regionalista (Francesc Cambó) i hi van participar diputats i senadors catalanistes, republicans i fins i tot alguns dinàstics disconformes. El govern Dato havia tancat les Corts i l'Assemblea es va reunir sense autorització. El destinatari era el govern i l'opinió pública. El propòsit era exigir reformes constitucionals i l'autonomia regional.",
+      analisi: "Les conclusions presenten un programa de reformes: 1) Obertura de les Corts per abordar problemes constitucionals; 2) Convocatòria de Corts Constituents per reorganitzar l'Estat; 3) Autonomia municipal i regional; 4) Fi del sistema del torn, 'obra de l'oligarquia i el caciquisme'; 5) Retorn de la sobirania al poble. L'última frase aclareix que no es busca el desordre sinó la 'regeneració dins la llei'. El text assumeix plenament el diagnòstic regeneracionista i proposa solucions democràtiques (constituent, autonomia) però sense qüestionar la monarquia. L'estil és formal, llista ordenada de demandes, propi d'un document polític.",
+      context: "L'Assemblea forma part de la Crisi de 1917, juntament amb les Juntes de Defensa i la vaga general. Cambó pretenia aprofitar la debilitat del govern per imposar les demandes catalanistes i regeneracionistes. L'Assemblea va ser reprimida per la Guàrdia Civil però va tenir ressò públic. Tanmateix, el moviment es va fragmentar quan la vaga general d'agost va esclatar: Cambó es va espantar davant la revolució obrera i va abandonar l'aliança amb republicans i socialistes. El govern va reprimir la vaga i l'Assemblea es va dissoldre. L'oportunitat de reforma des de baix va quedar frustrada.",
+      valoracio: "L'Assemblea de Parlamentaris representa l'intent més seriós de reformar el sistema des de la legalitat. Les seues demandes (constituent, autonomia, fi del caciquisme) eren compartides per amplis sectors. Però el moviment va fracassar per la divisió entre les forces reformistes: la burgesia catalanista va preferir l'ordre a la revolució i va abandonar els aliats obrers. Com a font, el text mostra tant les aspiracions reformistes com els límits de l'aliança entre burgesia i proletariat. La crisi de 1917 no va regenerar el sistema, però va accelerar-ne la descomposició fins al colp de 1923.",
+    },
+  },
+  {
+    id: "manifiest-primo",
+    title: "Manifest de Primo de Rivera (13 de setembre de 1923)",
+    type: "Font primària - Text polític",
+    category: "Dictadura",
+    excerpt: `"Al país y al Ejército: Ha llegado para nosotros el momento más temido que esperado (...) de recoger las ansias, de atender el clamoroso requerimiento de cuantos amando la Patria no ven para ella otra salvación que libertarla de los profesionales de la política, de los que por una u otra razón nos ofrecen el cuadro de desdichas e inmoralidades que empezaron el año 98 y amenazan a España con un próximo fin trágico y deshonroso.
+
+La tupida red de la política de concupiscencias ha cogido en sus mallas, secuestrándola, hasta la voluntad real. Con frecuencia parecen pedir que gobiernen los que ellos dicen no dejan gobernar, aludiendo a los que les representen en las Cortes en el manejo del presupuesto..."`,
+    modelAnswer: {
+      identificacio: "Text primari de caràcter politicomilitar. Es tracta del manifest publicat el 13 de setembre de 1923 pel general Miguel Primo de Rivera (1870-1930), Capità General de Catalunya, per justificar el colp d'estat que va iniciar la dictadura. El manifest va ser publicat des de Barcelona i adreçat simultàniament a l'Exèrcit i a la nació espanyola. El destinatari era doble: d'una banda, els companys d'armes, dels quals esperava suport o almenys no-resistència; d'altra, la població civil, a la qual pretenia convèncer de la necessitat de l'acció. El propòsit era legitimar el pronunciament presentant-lo com una operació de salvament nacional front a la degradació política.",
+      analisi: "El text presenta els elements típics d'un pronunciament militar: 1) Legitimació per la situació excepcional: el 'moment més temut' que arriba davant la impossibilitat de continuar tolerant la situació; 2) Apel·lació al patriotisme i a les 'ànsies' populars, presentant l'exèrcit com a intèrpret del sentiment nacional; 3) Crítica ferotge als 'professionals de la política' com a responsables exclusius de la decadència, des del Desastre del 98 fins a l'amenaça d'un 'fi tràgic i deshonrós'; 4) Denúncia de la corrupció política (la 'xarxa de concupiscències') que hauria segrestat fins i tot la voluntat reial. El to regeneracionista del manifest ('alliberar' el país dels polítics) connecta clarament amb les demandes de reforma acumulades des del 98, però les canalitza cap a una solució autoritària. L'estil és grandiloqüent, patriòtic, amb abundància de substantius abstractes (pàtria, salvació, honor) i un maniqueisme evident (polítics corruptes / exèrcit patriota).",
+      context: "El colp es produeix en un moment de crisi aguda del sistema de la Restauració: la fragmentació dels partits dinàstics feia inviable el torn pacífic; l'Expedient Picasso estava a punt de revelar les responsabilitats pel Desastre d'Annual (1921), que podien implicar el rei; el terrorisme anarquista i el pistolerisme assotaven Barcelona; les tensions entre l'exèrcit i el poder civil s'havien intensificat des de 1917; la guerra del Marroc era impopular i costosa. La passivitat d'Alfons XIII davant el colp —no va ordenar a l'Exèrcit defensar la Constitució— va ser interpretada com un suport implícit al pronunciament. El colp comptava amb suports diversos: sectors empresarials catalans (que volien ordre davant la conflictivitat obrera); gran part de l'Exèrcit; sectors catòlics i conservadors; i fins i tot alguns socialistes (la UGT no es va oposar activament).",
+      valoracio: "El manifest és clau per entendre la fi del sistema de la Restauració i l'inici d'un nou cicle polític. Primo de Rivera s'apropiava del llenguatge regeneracionista per justificar un règim autoritari. L'ambigüitat del regeneracionisme (el 'cirurgià de ferro' de Costa) es resolia ara clarament en sentit antidemocràtic. El document mostra com la crítica al parlamentarisme corrupte podia derivar en solucions anticonstitucionals. La referència a la 'voluntat real segrestada' és significativa: el rei seria després acusat de complicitat amb el colp, cosa que contribuiria a la seua caiguda el 1931. El manifest presenta una visió simplista de la realitat (tots els mals són culpa dels polítics) i proposa una solució simple (l'exèrcit com a salvador), obviant les causes estructurals dels problemes d'Espanya. Com a font, és representatiu de la mentalitat militar de l'època i del discurs legitimador dels cops d'estat, que es repetiria el 1936.",
     },
   },
   {
@@ -187,7 +250,6 @@ Delenda est Monarchia."`,
     },
   },
 ];
-
 export function AnalistaSection() {
   const [selectedSource, setSelectedSource] = useState<SourceAnalysis | null>(null);
   const [showAnswers, setShowAnswers] = useState({
